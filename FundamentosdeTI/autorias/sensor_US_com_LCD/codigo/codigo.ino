@@ -11,13 +11,13 @@ void setup()
 {
  lcd.init();
  Serial.begin(4800);
- Serial.println("Lendo dados do sensor...");
+ Serial.println(Lendo dados do sensor...);
 
   lcd.setBacklight(HIGH);
   lcd.setCursor(0,0);
-  lcd.print("Lendo dados");
+  lcd.print(Lendo dados);
   lcd.setCursor(0,1);
-  lcd.print("do sensor...");
+  lcd.print(do sensor...);
   delay(3000);
   lcd.setBacklight(LOW);
   delay(750);
@@ -34,16 +34,16 @@ void loop()
   cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
   inMsec = ultrasonic.convert(microsec, Ultrasonic::IN);
   //Exibe informacoes no serial monitor
-  Serial.print("Distancia em cm: ");
+  Serial.print(Distancia em cm: );
   Serial.print(cmMsec);
-  Serial.print(" - Distancia em polegadas: ");
+  Serial.print( - Distancia em polegadas: );
   Serial.println(inMsec);
   delay(1000);
 
 
   lcd.setBacklight(HIGH);
   lcd.setCursor(0,0);
-  lcd.print("Distancia em cm:");
+  lcd.print(Distancia em cm:);
   lcd.setCursor(0,1);
   lcd.print(cmMsec);
   delay(4800);
