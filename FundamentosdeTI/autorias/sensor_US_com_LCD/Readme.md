@@ -1,6 +1,6 @@
 # Sensor ultrassônico com tela LCD
 ## Ferramentas usadas
-uma placa arduíno 
+uma placa arduíno -------------------------------------------------------------------------------------------------------------------------------------------------------
 fios de cobre
 sensor ultrassônico
 tela LCD 2IC
